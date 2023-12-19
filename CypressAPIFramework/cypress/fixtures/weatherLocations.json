@@ -1,0 +1,20 @@
+{
+    "location1": {
+        "city": "Dallas",
+        "region": " TX",
+        "country": "United States",
+        "timezone_id": "America/Chicago"
+    },
+    "location2": {
+        "city": "Plano",
+        "region": " TX",
+        "country": "United States",
+        "timezone_id": "America/Chicago"
+    },
+    "location3": {
+        "city": "Phoenix",
+        "region": " AZ",
+        "country": "United States",
+        "timezone_id": "America/Phoenix"
+    }
+}

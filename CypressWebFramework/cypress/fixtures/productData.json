@@ -1,0 +1,12 @@
+{
+  "product1": {
+    "value": "mens boots",
+    "searchKey1": "Men",
+    "searchKey2": "Boot"
+  },
+  "product2": {
+    "value": "mens shoes",
+    "searchKey1": "Men",
+    "searchKey2": "Shoes"
+  }
+}

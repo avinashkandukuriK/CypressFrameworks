@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-09-14T03:00:29.931Z",
+    "end": "2022-09-14T03:01:01.367Z",
+    "duration": 31436,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e619bb34-a167-43e9-a5cc-383d9812a14a",
+      "title": "",
+      "fullFile": "cypress\\integration\\examples\\ProductFormValidationTest.js",
+      "file": "cypress\\integration\\examples\\ProductFormValidationTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0104934c-f03e-4690-a867-0d6519b36c0d",
+          "title": "E2e test suit - product form",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "First test case - product form validation",
+              "fullTitle": "E2e test suit - product form First test case - product form validation",
+              "timedOut": null,
+              "duration": 17700,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const homePage = new _HomePage.default();\nconst productListPage = new _ProductListPage.default();\nconst productFormPage = new _ProductFormPage.default(); //verify home page UI elements\nhomePage.verifyHomePageElements(); //perform search by product, verify product list page elements \ncy.performSearch(data.product1.value);\nproductListPage.verifyProductListPageElements(); //verify product form page elements\nproductListPage.getAddToCartItems().eq(0).click({\n  force: true\n});\nproductListPage.getProductItem().click({\n  force: true\n});\nproductFormPage.verifyProductFormPageElements();",
+              "err": {},
+              "uuid": "c1a9d90c-4d8b-48f7-8acc-0b731014cec7",
+              "parentUUID": "0104934c-f03e-4690-a867-0d6519b36c0d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c1a9d90c-4d8b-48f7-8acc-0b731014cec7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 17700,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

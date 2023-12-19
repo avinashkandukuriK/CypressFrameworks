@@ -1,0 +1,28 @@
+{
+  "order1": {
+    "firstName": "Sam",
+    "lastName": "Smith",
+    "address": "5926 Main st",
+    "zipCode": "75093",
+    "city": "Plano",
+    "state": "Texas",
+    "phoneNumber": "5126789435",
+    "cardNumber": "4145560859781040",
+    "expireDate": "1230",
+    "cvs": "579",
+    "nameOnCard": "Sam Smith"
+  },
+  "order2": {
+    "firstName": "Bob",
+    "lastName": "Mitchell",
+    "address": "5998 Second st",
+    "zipCode": "75091",
+    "city": "Garland",
+    "state": "Texas",
+    "phoneNumber": "5126789891",
+    "cardNumber": "4145560859781918",
+    "expireDate": "1229",
+    "cvs": "574",
+    "nameOnCard": "Bob Mitchell"
+  }
+}

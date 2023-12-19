@@ -1,0 +1,22 @@
+{
+  "name": "target",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "headtest": "npm run test -- --headed",
+    "test": "node_modules/.bin/cypress run",
+    "chrometest": "npm run test -- --browser chrome --headed",
+    "firefoxtest": "npm run test -- --browser firefox --headed",
+    "edgetest": "npm run test -- --browser edge --headed",
+    "electrontest": "npm run test -- --browser electron --headed",
+    "recordDashBoardTest": "npm run test -- --record --key b9ed3938-b5b2-4fbb-acb1-bc2bccd7bc4e --reporter mochawesome"
+  },
+  "author": "Andrey Yudin",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3"
+  }
+}

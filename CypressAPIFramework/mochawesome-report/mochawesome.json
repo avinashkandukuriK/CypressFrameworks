@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-09-27T02:54:14.345Z",
+    "end": "2022-09-27T02:54:14.790Z",
+    "duration": 445,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ea919f1b-480e-4fcb-98cb-03e4a7ef2794",
+      "title": "",
+      "fullFile": "cypress\\integration\\APITests\\GetUser.js",
+      "file": "cypress\\integration\\APITests\\GetUser.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "facfd704-8940-4080-a992-7a9fd3022920",
+          "title": "get api user tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "get users",
+              "fullTitle": "get api user tests get users",
+              "timedOut": null,
+              "duration": 425,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.request({\n  method: 'GET',\n  url: apiResources.userElementsAPI.getUsers,\n  headers: {\n    'Authorization': \"Bearer \" + accessToken\n  }\n}).then(res => {\n  expect(res.status).to.eq(200);\n});",
+              "err": {},
+              "uuid": "1111cf94-0fb9-474c-851a-06b1aaa7e3d7",
+              "parentUUID": "facfd704-8940-4080-a992-7a9fd3022920",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1111cf94-0fb9-474c-851a-06b1aaa7e3d7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 425,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
